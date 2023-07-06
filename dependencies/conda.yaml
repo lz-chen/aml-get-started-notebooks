@@ -1,0 +1,16 @@
+name: model-env
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mlflow
+      - azureml-mlflow
+      - azureml-sdk==1.50.0
+      - scikit-learn==1.2.0
+      - pandas==1.5.2
+      - joblib==1.1.1
+      - matplotlib==3.6.3
